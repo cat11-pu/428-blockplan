@@ -1,0 +1,19 @@
+{
+  "budget": 2,
+  "direct_n": 2,
+  "per_block": 2,
+  "full_code": "E_FULL",
+  "under_code": "E_UNDER",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "direct": [0, 0], "indirect": [0, 0], "doublemap": [], "used": 0, "nextb": 1,
+             "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "alloc", "count": 2 },
+    { "id": 2, "kind": "alloc", "count": 1 },
+    { "id": 3, "kind": "alloc", "count": 3 },
+    { "id": 4, "kind": "free", "count": 2 },
+    { "id": 5, "kind": "alloc", "count": 1 },
+    { "id": 6, "kind": "free", "count": 1 },
+    { "id": 7, "kind": "alloc", "count": 2 }
+  ]
+}
